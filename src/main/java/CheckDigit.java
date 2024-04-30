@@ -29,7 +29,7 @@ public class CheckDigit
      /* to be implemented in part (b) */    
 
      int storer = getCheck(numWithCheckDigit/10);
-     if (storer == (numWigthCheckDigit % 10)){
+     if (storer == (numWithCheckDigit % 10)){
         return true;  
      }
      return false;
